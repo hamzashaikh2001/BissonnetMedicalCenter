@@ -1,7 +1,43 @@
+import Navbar from '@/components/Navbar'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
+    <body className="bg-white text-black">
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <div id="home" className="flex min-h-screen flex-col items-start justify-center p-16 space-y-6">
+          <h1 className="text-6xl">Your Health is Our Priority</h1>
+          <p className="text-xl">For over twenty years, our clinic has strived to deliver quality healthcare at the most affordable rates.</p>
+        </div>
+        <div id ="about" className="flex min-h-screen items-center justify-evenly">
+          <div className="flex-col">
+            <h2 className="text-4xl">About Us</h2>
+            <p className="text-xl">Content for about us</p>
+          </div>
+          <Image src="/vercel.svg" alt="Staff Image" width={300} height={300} priority/>
+        </div>
+        <div id="services" className="flex min-h-screen flex-col items-center justify-start p-44 space-y-6">
+          <h2 className="text-4xl">Services</h2>
+        </div>
+        <div id="contact us" className="flex min-h-screen flex-col items-center justify-start p-44 space-y-6">
+          <h2 className="text-4xl">Contact Us</h2>
+          <h3 className="text-2xl">Get in contact with us</h3>
+          <h3 className="text-2xl">Phone</h3>
+          <Link href="tel:2815756700">(281) 575-6700</Link>
+          <h3 className="text-2xl">Email</h3>
+          <Link href="mailto:fake@temp.com">fake@temp.com</Link>
+          <p></p>
+        </div>
+      </main>
+    </body>
+  )
+}
+
+/*
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
@@ -111,3 +147,4 @@ export default function Home() {
     </main>
   )
 }
+*/
