@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Roboto } from 'next/font/google';
 import Services from '@/components/Services'
+import Footer from '@/components/Footer'
 
 const roboto = Roboto({
   weight: ['400', '700'],
@@ -26,8 +27,7 @@ export default function Home() {
         <Services />
         <Contact />
       </main>
-      <footer id="footer" className="">
-      </footer>
+      <Footer />
     </body>
   )
 }
