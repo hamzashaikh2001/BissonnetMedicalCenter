@@ -22,14 +22,30 @@ const Carousel = () => {
             <div id="item4" className="carousel-item w-full">
                 <img src="/tempBG.jpg" className="w-full" />
             </div>
-            <div className="flex items-end justify-center absolute h-full w-full z-10 pb-4 gap-4">
-                <a className="btn btn-xs" onClick={() => handleItemClick("item1")}></a>
-                <a className="btn btn-xs" onClick={() => handleItemClick("item2")}></a> 
-                <a className="btn btn-xs" onClick={() => handleItemClick("item3")}></a> 
-                <a className="btn btn-xs" onClick={() => handleItemClick("item4")}></a>
+            <div className="flex items-end justify-center absolute h-full w-full z-10 pb-6 gap-2">
+                <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick("item1")}>
+                    <a className="w-8 h-1 bg-white"></a>
+                </div>
+                <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick("item2")}>
+                    <a className="w-8 h-1 bg-white"></a>
+                </div>
+                <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick("item3")}>
+                    <a className="w-8 h-1 bg-white"></a>
+                </div>
+                <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick("item4")}>
+                    <a className="w-8 h-1 bg-white"></a>
+                </div>
             </div>
         </div>
     )
 }
+
+/*
+                <a className="w-8 h-1 bg-white cursor-pointer" onClick={() => handleItemClick("item1")}></a>
+                <a className="w-8 h-1 bg-white cursor-pointer" onClick={() => handleItemClick("item2")}></a> 
+                <a className="w-8 h-1 bg-white cursor-pointer" onClick={() => handleItemClick("item3")}></a> 
+                <a className="w-8 h-1 bg-white cursor-pointer" onClick={() => handleItemClick("item4")}></a>
+*/
+
 
 export default Carousel
