@@ -11,11 +11,11 @@ const Navbar = () => {
     }
   }
   return (
-    <nav className="navbar fixed bg-base-100 h-20 z-50">
+    <nav className="navbar fixed bg-base-100 shadow-xl h-20 z-50">
         <div className="flex-1">
           <a className="btn btn-ghost normal-case text-xl" onClick={() => handleItemClick("home")}>Bissonnet Medical Center</a>
         </div>
-        <div className="flex-none">
+        <div className="flex-none hidden md:block">
           <ul className="menu menu-horizontal px-2 text-lg">
             <li className="ml-10 hover:border-b"><a onClick={() => handleItemClick("home")}>Home</a></li>
             <li className="ml-10 hover:border-b"><a onClick={() => handleItemClick("about")}>About</a></li>
