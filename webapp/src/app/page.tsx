@@ -2,11 +2,10 @@ import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Intro from '@/components/Intro'
 import Navbar from '@/components/Navbar'
-import Image from 'next/image'
-import Link from 'next/link'
 import { Roboto } from 'next/font/google';
 import Services from '@/components/Services'
 import Footer from '@/components/Footer'
+import { Metadata } from 'next'
 
 const roboto = Roboto({
   weight: ['400', '700'],
@@ -14,6 +13,10 @@ const roboto = Roboto({
   subsets: ['latin'],
   display: 'swap',
 })
+
+export const metadata: Metadata = {
+  title: 'Bissonnet Medical Center',
+}
 
 export default function Home() {
   return (

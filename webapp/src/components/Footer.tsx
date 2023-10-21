@@ -27,7 +27,7 @@ const Footer = () => {
                     <header className="footer-title">Contact</header>
                     <a className="link link-hover" href="https://maps.app.goo.gl/GmTvbKSDd3ViN7Yz9">11327 Bissonnet St,<br/>Houston, TX 77099</a>
                     <a className="link link-hover" href="tel:2815756700">(281) 575-6700</a>
-                    <a className="link link-hover" href="mailto:fake@temp.com">fake@temp.com</a> 
+                    <a className="link link-hover" href="mailto:BissonnetMedicalCenter@yahoo.com">BissonnetMedicalCenter@yahoo.com</a>
                 </nav>
             </footer>
             <footer className="footer footer-center p-4 bg-slate-900 text-base-content">

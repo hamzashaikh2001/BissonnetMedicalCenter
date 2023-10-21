@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div id="contact" className="flex min-h-screen flex-col items-center justify-start p-28 space-y-6 bg-primary-content text-black">
+        <div id="contact" className="flex min-h-screen flex-col items-center justify-start p-28 space-y-6 bg-slate-100 text-black">
             <h2 className="text-4xl font-bold">Contact Us</h2>
             <h3 className="text-2xl">Get in contact with us!</h3>
             <div className="flex flex-col lg:flex-row-reverse items-center justify-between h-full w-full px-4 2xl:px-16">
@@ -29,9 +29,9 @@ const Contact = () => {
                     <div className="divider"></div>
                     <div className="card w-96 glass bg-slate-300">
                         <div className="card-body">
-                            <Link href="mailto:fake@temp.com">
+                            <Link href="mailto:BissonnetMedicalCenter@yahoo.com">
                                 <h3 className="card-title text-2xl">Email</h3>
-                                fake@temp.com
+                                BissonnetMedicalCenter@yahoo.com
                             </Link>
                         </div>
                     </div>
