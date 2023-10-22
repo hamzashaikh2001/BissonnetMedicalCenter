@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar'
 import { Roboto } from 'next/font/google';
 import Services from '@/components/Services'
 import Footer from '@/components/Footer'
+import Message from '@/components/Message';
 import { Metadata } from 'next'
 
 const roboto = Roboto({
@@ -27,6 +28,7 @@ export default function Home() {
       <main>
         <Intro />
         <About />
+        <Message />
         <Services />
         <Contact />
       </main>
