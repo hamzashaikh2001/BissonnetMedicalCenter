@@ -16,24 +16,31 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Bissonnet Medical Center',
+  title: 'Bissonnet Medical Center | Family Clinic in Houston, TX',
+  description: "Discover exceptional healthcare at Bissonnet Medical Center, your trusted family clinic in Houston, TX. Led by Dr. Muhammad Shaikh, we offer expert internal medicine care, preventative services, immunizations, and compassionate patient support. Your well-being is our priority, and we're committed to providing comprehensive, personalized care to ensure your health and happiness. Partner with us for a healthier, happier life.",
+  keywords: ['Bissonnet Medical Center', 'Internal Medicine', 'Family Clinic', 'Healthcare in Houston', 'Preventative Care', 'Immunizations', 'Dr. Muhammad Shaikh', 'Houston Medical Center', 'Primary Care Physician', 'Comprehensive Healthcare', 'Wellness Services', 'Medical Consultations', 'Diagnostic Testing', 'Patient-Centered Care', 'Trusted Healthcare Provider', 'Houston, TX Clinic', 'General Medical Services', 'Bissonnet'],
+  publisher: 'Bissonnet Medical Center',
+  authors: [{name: 'Hamza Shaikh'}],
+  creator: 'Hamza Shaikh',
 }
 
 export default function Home() {
   return (
-    <body className={roboto.className}>
-      <header>
-        <Navbar />
-      </header>
-      <main>
-        <Intro />
-        <About />
-        <Message />
-        <Services />
-        <Contact />
-      </main>
-      <Footer />
-    </body>
+    <html lang="en" className={roboto.className}>
+      <body>
+        <header>
+          <Navbar />
+        </header>
+        <main>
+          <Intro />
+          <About />
+          <Message />
+          <Services />
+          <Contact />
+        </main>
+        <Footer />
+      </body>
+    </html>
   )
 }
 

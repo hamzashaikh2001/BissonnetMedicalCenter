@@ -10,11 +10,11 @@ const Footer = () => {
     }
     return (
         <div>
-            <footer id="footer" className="footer p-10 bg-base-300 text-base-content">
+            <footer id="footer" className="footer p-10 bg-base-300 text-white">
                 <aside>
                     <img src="/vercel.svg" alt="Bissonnet Medical Center Logo" className="dark:invert" width={100} height={24}/>
-                    <header className="text-xl font-bold dark:text-white">Bissonnet Medical Center</header>
-                    <p className="text-md font-bold dark:text-white">Your Health is Our Priority</p>
+                    <header className="text-xl font-bold">Bissonnet Medical Center</header>
+                    <p className="text-md font-bold">Your Health is Our Priority</p>
                 </aside>
                 <nav>
                     <header className="footer-title">Company</header> 
@@ -30,7 +30,7 @@ const Footer = () => {
                     <a className="link link-hover" href="mailto:BissonnetMedicalCenter@yahoo.com">BissonnetMedicalCenter@yahoo.com</a>
                 </nav>
             </footer>
-            <footer className="footer footer-center p-4 bg-slate-900 text-base-content">
+            <footer className="footer footer-center p-4 bg-black text-white">
                 <aside>
                     <p>Copyright © 2023 - All right reserved by Bissonnet Medical Center</p>
                     <p>
