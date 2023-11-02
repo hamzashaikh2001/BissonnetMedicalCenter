@@ -10,11 +10,10 @@ const Footer = () => {
     }
     return (
         <div>
-            <footer id="footer" className="footer p-10 bg-base-300 text-white">
-                <aside>
-                    <img src="/vercel.svg" alt="Bissonnet Medical Center Logo" className="dark:invert" width={100} height={24}/>
-                    <header className="text-xl font-bold">Bissonnet Medical Center</header>
-                    <p className="text-md font-bold">Your Health is Our Priority</p>
+            <footer id="footer" className="footer p-10 bg-[#121212] text-white">
+                <aside className="pt-4">
+                    <img src="logo.svg" alt="Bissonnet Medical Center Logo" width={350} height={100}/>
+                    <p className="text-md font-bold pl-10">Your Health is Our Priority</p>
                 </aside>
                 <nav>
                     <header className="footer-title">Company</header> 
@@ -35,10 +34,14 @@ const Footer = () => {
                     <p>Copyright © 2023 - All right reserved by Bissonnet Medical Center</p>
                     <p>
                     Images by <a href="https://www.freepik.com/free-photo/doctor-examination-young-man-with-stethoscope-hospital_5018005.htm">jcomp, </a>
-                    <a href="https://www.freepik.com/free-photo/medical-exam_5535732.htm#query=doctor%20consultation&position=35&from_view=keyword&track=ais">pressfoto, </a> and Freepik (
+                    <a href="https://www.freepik.com/free-photo/nurse-measuring-patient-blood-pressure_2769131.htm#query=patient&position=7&from_view=search&track=sph">rawpixel.com, </a> pressfoto (
+                    <a href="https://www.freepik.com/free-photo/medical-exam_5535732.htm#query=doctor%20consultation&position=35&from_view=keyword&track=ais">1, </a>
+                    <a href="https://www.freepik.com/free-photo/unrecognizable-female-doctor-sitting-couch-with-male-patient-filling-form_5839640.htm#query=patient&position=4&from_view=search&track=sph">2, </a>
+                    <a href="https://www.freepik.com/free-photo/worplace-modern-hospital_5633803.htm#query=doctors%20office&position=2&from_view=search&track=ais">3</a>) and Freepik (
                     <a href="https://www.freepik.com/free-photo/doctor-vaccinating-patient-clinic_12892257.htm#query=vaccine&position=2&from_view=search&track=sph">1, </a>
                     <a href="https://www.freepik.com/free-photo/coronavirus-blood-samples-assortment-lab_18684521.htm#query=Diagnostic%20Testing&position=14&from_view=search&track=ais">2, </a>
-                    <a href="https://www.freepik.com/free-photo/surgical-procedure-made-by-doctor_14008912.htm#query=minor%20surgical%20procedure&position=1&from_view=search&track=ais">3</a>) on Freepik
+                    <a href="https://www.freepik.com/free-photo/surgical-procedure-made-by-doctor_14008912.htm#query=minor%20surgical%20procedure&position=1&from_view=search&track=ais">3, </a>
+                    <a href="https://www.freepik.com/free-photo/female-doctor-her-office-with-copy-space_13819888.htm#from_view=detail_alsolike">4</a>) on Freepik
                     </p>
                 </aside>
             </footer>

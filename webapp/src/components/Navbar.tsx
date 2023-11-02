@@ -11,9 +11,9 @@ const Navbar = () => {
     }
   }
   return (
-    <nav className="navbar fixed bg-base-100 shadow-xl h-20 z-50">
+    <nav className="navbar fixed bg-[#2E024E] shadow-xl h-20 z-50">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl" onClick={() => handleItemClick("home")}>Bissonnet Medical Center</a>
+          <a className="btn btn-ghost" onClick={() => handleItemClick("home")}><img src="logo.svg" alt="Bissonnet Medical Center Logo" width={325} height={100}/></a>
         </div>
         <div className="flex-none hidden md:block">
           <ul className="menu menu-horizontal px-2 text-lg">

@@ -26,16 +26,16 @@ const Carousel = () => {
     return (
         <div className="carousel h-screen w-full">
             <div id="item1" className="carousel-item w-full">
-                <img src="/tempBG.jpg" className="w-full" />
+                <img src="Slides/Slide1.jpeg" className="w-full pt-20" />
             </div>
             <div id="item2" className="carousel-item w-full">
-                <img src="/tempBG.jpg" className="w-full" />
+                <img src="Slides/Slide2.jpg" className="w-full  pt-20" />
             </div>
             <div id="item3" className="carousel-item w-full">
-                <img src="/tempBG.jpg" className="w-full" />
+                <img src="Slides/Slide3.jpg" className="w-full pt-20" />
             </div>
             <div id="item4" className="carousel-item w-full">
-                <img src="/tempBG.jpg" className="w-full" />
+                <img src="Slides/Slide4.jpg" className="w-full pt-20" />
             </div>
             <div className="flex items-end justify-center absolute h-full w-full z-10 pb-6 gap-2">
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick("item1", "CarouselButton1")}>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Message = () => {
   return (
-    <div className="hero h-96 bg-purple-600">
+    <div className="hero h-screen md:h-96 bg-purple-800">
         <div className="hero-content text-center">
             <div className="max-w-3xl">
                 <h2 className="text-5xl font-bold">Your Health, Our Commitment.</h2>

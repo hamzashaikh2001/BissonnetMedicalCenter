@@ -22,6 +22,13 @@ export const metadata: Metadata = {
   publisher: 'Bissonnet Medical Center',
   authors: [{name: 'Hamza Shaikh'}],
   creator: 'Hamza Shaikh',
+  icons: [{rel: 'shortcut icon', url: 'favicons/favicon.ico'},
+          {rel: 'apple-touch-icon', sizes: '180x180', url: 'favicons/apple-touch-icon.png'},
+          {rel: 'icon', type: 'image/png', sizes: '512x512', url: 'favicons/android-chrome-512x512.png'},
+          {rel: 'icon', type: 'image/png', sizes: '192x192', url: 'favicons/android-chrome-192x192.png'},
+          {rel: 'icon', type: 'image/png', sizes: '32x32', url: 'favicons/favicon-32x32.png'},
+          {rel: 'icon', type: 'image/png', sizes: '16x16', url: 'favicons/favicon-16x16.png'},
+          {rel: 'manifest', url: 'favicons/site.webmanifest'}],
 }
 
 export default function Home() {
