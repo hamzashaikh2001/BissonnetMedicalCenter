@@ -26,7 +26,7 @@ const Services = () => {
                         <figure><Image src="/Images/WellnessCheckUp.jpg" alt="Preventive Care & Wellness Check-Ups" width="384" height="256"/></figure>
                         <div className="card-body items-center">
                             <h2 className="card-title">Preventive Care & Check-Ups</h2>
-                            <p className="text-center">Don't wait for health issues to arise. Our thorough wellness assessments are 
+                            <p className="text-center">Don&apos;t wait for health issues to arise. Our thorough wellness assessments are 
                             designed to keep you feeling your best, ensuring early detection and proactive solutions to safeguard 
                             your health.</p>
                         </div>
@@ -37,7 +37,7 @@ const Services = () => {
                         <figure><Image src="/Images/Vaccination.jpg" alt="Immunizations and Vaccinations" width="384" height="256"/></figure>
                         <div className="card-body items-center">
                             <h2 className="card-title">Immunizations and Vaccinations</h2>
-                            <p className="text-center">Your health is your wealth, and we're here to protect it. Our clinic offers a wide range 
+                            <p className="text-center">Your health is your wealth, and we&apos;re here to protect it. Our clinic offers a wide range 
                             of immunizations and vaccines for people of all ages. Stay safe and stay healthy with our immunization services.</p>
                         </div>
                     </div>
