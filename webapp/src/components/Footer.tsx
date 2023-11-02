@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
             <footer id="footer" className="footer p-10 bg-[#121212] text-white">
                 <aside className="pt-4">
-                    <img src="logo.svg" alt="Bissonnet Medical Center Logo" width={350} height={100}/>
+                    <img src="logo.svg" alt="Bissonnet Medical Center Logo" width="350" height="100"/>
                     <p className="text-md font-bold pl-10">Your Health is Our Priority</p>
                 </aside>
                 <nav>

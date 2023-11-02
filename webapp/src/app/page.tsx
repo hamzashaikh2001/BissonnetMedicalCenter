@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div lang="en" className={roboto.className}>
+    <div className={roboto.className}>
         <Navbar />
         <Intro />
         <About />
@@ -42,22 +42,5 @@ export default function Home() {
         <Contact />
         <Footer />
     </div>
-    /*
-    <html lang="en" className={roboto.className}>
-      <body>
-        <header>
-          <Navbar />
-        </header>
-        <main>
-          <Intro />
-          <About />
-          <Message />
-          <Services />
-          <Contact />
-        </main>
-        <Footer />
-      </body>
-    </html>
-    */
   )
 }
