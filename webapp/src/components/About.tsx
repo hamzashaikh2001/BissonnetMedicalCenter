@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
 
 const About = () => {
     return (
         <div id ="about" className="min-h-screen flex items-center text-black md:px-40 md:py-24 bg-slate-100">
             <div className="hero bg-slate-300 p-2">
                 <div className="hero-content flex-col lg:flex-row-reverse xl:gap-x-24">
-                    <img src="/Images/AboutUs.jpg" alt="Image of Dr. Muhammad Shaikh" className="max-w-sm rounded-lg shadow-2xl"/>
+                    <Image src="/Images/AboutUs.jpg" alt="Image of Dr. Muhammad Shaikh" width="0" height="0" sizes="100vw" className="w-full h-auto max-w-sm rounded-lg shadow-2xl"/>
                     <div className="max-w-lg">
                         <h1 className="text-4xl font-bold flex justify-center">About Us</h1>
                         <p className="text-xl py-6 text-justify">

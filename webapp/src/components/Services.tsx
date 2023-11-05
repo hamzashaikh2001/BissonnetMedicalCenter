@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Services = () => {
     return (
-        <div id="services" className="flex flex-col min-h-screen pt-32 space-y-6 bg-primary-content text-black">
-            <div className= "flex flex-col items-center">
+        <div id="services" className="flex flex-col min-h-screen pt-32 space-y-6 bg-white text-black">
+            <div className= "flex flex-col items-center text-center">
                 <h2 className="text-4xl font-bold">Services</h2>
                 <h3 className="text-2xl">Below are a few of our services!</h3>
             </div>
