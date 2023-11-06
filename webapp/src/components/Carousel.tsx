@@ -18,16 +18,16 @@ const Carousel = () => {
     return (
         <div className="carousel h-screen w-full">
             <div id="item1" className="carousel-item w-full">
-                <Image src="/Slides/Slide1.jpeg" alt="Doctor with a stethoscope" width="0" height="0" sizes="100vw" className="w-full h-auto pt-20" />
+                <Image src="/Slides/Slide1.jpeg" alt="Doctor with a stethoscope" width="4000" height="1766" sizes="100vw" className="w-full h-auto pt-20" />
             </div>
             <div id="item2" className="carousel-item w-full">
-                <Image src="/Slides/Slide2.jpg" alt="Doctor talking to a patient" width="0" height="0" sizes="100vw" className="w-full h-auto pt-20" />
+                <Image src="/Slides/Slide2.jpg" alt="Doctor talking to a patient" width="2500" height="1669" sizes="100vw" className="w-full h-auto pt-20" />
             </div>
             <div id="item3" className="carousel-item w-full">
-                <Image src="/Slides/Slide3.jpg" alt="Doctor taking vitals" width="0" height="0" sizes="100vw" className="w-full h-auto pt-20" />
+                <Image src="/Slides/Slide3.jpg" alt="Doctor taking vitals" width="2500" height="1478" sizes="100vw" className="w-full h-auto pt-20" />
             </div>
             <div id="item4" className="carousel-item w-full">
-                <Image src="/Slides/Slide4.jpg" alt="Organized Clinic Office" width="0" height="0" sizes="100vw" className="w-full h-auto pt-20" />
+                <Image src="/Slides/Slide4.jpg" alt="Organized Clinic Office" width="2500" height="1668" sizes="100vw" className="w-full h-auto pt-20" />
             </div>
             <div className="flex items-end justify-center absolute h-full w-full z-10 pb-6 gap-2">
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(1)}>
