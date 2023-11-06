@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Image from 'next/image'
 
 const Footer = () => {
     const handleItemClick = (pageName: string) => {
@@ -12,7 +13,7 @@ const Footer = () => {
         <div>
             <footer id="footer" className="footer p-10 bg-[#121212] text-white">
                 <aside className="pt-4">
-                    <img src="logo.svg" alt="Bissonnet Medical Center Logo" width="350" height="100"/>
+                    <Image src="logo.svg" alt="Bissonnet Medical Center Logo" width="350" height="100"/>
                     <p className="text-md font-bold pl-10">Your Health is Our Priority</p>
                 </aside>
                 <nav>
@@ -33,7 +34,8 @@ const Footer = () => {
                 <aside>
                     <p>Copyright © 2023 - All right reserved by Bissonnet Medical Center</p>
                     <p>
-                    Images by <a href="https://www.freepik.com/free-photo/doctor-examination-young-man-with-stethoscope-hospital_5018005.htm">jcomp, </a>
+                    Images by <a href="https://www.freepik.com/free-vector/elegant-geometric-pattern-grey-backdrop-presentation-vector_63068629.htm#query=website%20background%20pattern&position=10&from_view=keyword&track=ais">starline, </a>
+                    <a href="https://www.freepik.com/free-photo/doctor-examination-young-man-with-stethoscope-hospital_5018005.htm">jcomp, </a>
                     <a href="https://www.freepik.com/free-photo/nurse-measuring-patient-blood-pressure_2769131.htm#query=patient&position=7&from_view=search&track=sph">rawpixel.com, </a> pressfoto (
                     <a href="https://www.freepik.com/free-photo/medical-exam_5535732.htm#query=doctor%20consultation&position=35&from_view=keyword&track=ais">1, </a>
                     <a href="https://www.freepik.com/free-photo/unrecognizable-female-doctor-sitting-couch-with-male-patient-filling-form_5839640.htm#query=patient&position=4&from_view=search&track=sph">2, </a>
