@@ -17,12 +17,12 @@ const Footer = () => {
                     <p className="text-md font-bold pl-10">Your Health is Our Priority</p>
                 </aside>
                 <nav>
-                    <header className="footer-title">Company</header> 
-                    <a className="link link-hover" onClick={() => handleItemClick("home")}>Home</a> 
-                    <a className="link link-hover" onClick={() => handleItemClick("about")}>About Us</a> 
-                    <a className="link link-hover" onClick={() => handleItemClick("services")}>Services</a> 
-                    <a className="link link-hover" onClick={() => handleItemClick("contact")}>Contact Us</a> 
-                </nav> 
+                    <header className="footer-title">Company</header>
+                    <a className="link link-hover" onClick={() => handleItemClick("home")}>Home</a>
+                    <a className="link link-hover" onClick={() => handleItemClick("about")}>About Us</a>
+                    <a className="link link-hover" onClick={() => handleItemClick("services")}>Services</a>
+                    <a className="link link-hover" onClick={() => handleItemClick("contact")}>Contact Us</a>
+                </nav>
                 <nav>
                     <header className="footer-title">Contact</header>
                     <a className="link link-hover" href="https://maps.app.goo.gl/GmTvbKSDd3ViN7Yz9">11327 Bissonnet St,<br/>Houston, TX 77099</a>
