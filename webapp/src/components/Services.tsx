@@ -12,7 +12,7 @@ const Services = () => {
             <div className="carousel carousel-center max-w-screen p-4 space-x-8 bg-slate-100">
                 <div className="carousel-item">
                     <div className="card w-96 bg-slate-300 shadow-xl">
-                        <figure><Image src="/Images/MedicalConsultation.jpg" alt="General Medical Consultations" width="384" height="256"/></figure>
+                        <figure><Image src="/Images/MedicalConsultation.webp" alt="General Medical Consultations" width="384" height="256" loading = "lazy" decoding= "async"/></figure>
                         <div className="card-body items-center">
                             <h2 className="card-title">General Medical Consultations</h2>
                             <p className="text-center">
@@ -23,7 +23,7 @@ const Services = () => {
                 </div>
                 <div className="carousel-item">
                     <div className="card w-96 bg-slate-300 shadow-xl">
-                        <figure><Image src="/Images/WellnessCheckUp.jpg" alt="Preventive Care & Wellness Check-Ups" width="384" height="256"/></figure>
+                        <figure><Image src="/Images/WellnessCheckUp.webp" alt="Preventive Care & Wellness Check-Ups" width="384" height="256" loading = "lazy" decoding= "async"/></figure>
                         <div className="card-body items-center">
                             <h2 className="card-title">Preventive Care & Check-Ups</h2>
                             <p className="text-center">Don&apos;t wait for health issues to arise. Our thorough wellness assessments are 
@@ -34,7 +34,7 @@ const Services = () => {
                 </div>
                 <div className="carousel-item">
                     <div className="card w-96 bg-slate-300 shadow-xl">
-                        <figure><Image src="/Images/Vaccination.jpg" alt="Immunizations and Vaccinations" width="384" height="256"/></figure>
+                        <figure><Image src="/Images/Vaccination.webp" alt="Immunizations and Vaccinations" width="384" height="256" loading = "lazy" decoding= "async"/></figure>
                         <div className="card-body items-center">
                             <h2 className="card-title">Immunizations and Vaccinations</h2>
                             <p className="text-center">Your health is your wealth, and we&apos;re here to protect it. Our clinic offers a wide range 
@@ -44,7 +44,7 @@ const Services = () => {
                 </div>
                 <div className="carousel-item">
                     <div className="card w-96 bg-slate-300 shadow-xl">
-                        <figure><Image src="/Images/DiagnosticTesting.jpg" alt="Diagnostic Testing" width="384" height="256"/></figure>
+                        <figure><Image src="/Images/DiagnosticTesting.webp" alt="Diagnostic Testing" width="384" height="256" loading = "lazy" decoding= "async"/></figure>
                         <div className="card-body items-center">
                             <h2 className="card-title">Diagnostic Testing</h2>
                             <p className="text-center">Precision and peace of mind are just a test away. Our diagnostic testing services are here 
@@ -54,7 +54,7 @@ const Services = () => {
                 </div>
                 <div className="carousel-item">
                     <div className="card w-96 bg-slate-300 shadow-xl">
-                        <figure><Image src="/Images/MinorSurgicalProcedure.jpg" alt="Minor Surgical Procedures" width="384" height="256"/></figure>
+                        <figure><Image src="/Images/MinorSurgicalProcedure.webp" alt="Minor Surgical Procedures" width="384" height="256" loading = "lazy" decoding= "async"/></figure>
                         <div className="card-body items-center">
                             <h2 className="card-title">Minor Surgical Procedures</h2>
                             <p className="text-center">Minor surgical procedures, such as stitches, are offered with the utmost 
