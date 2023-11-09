@@ -17,7 +17,7 @@ const Carousel = () => {
     return (
         <div className="carousel h-screen w-full">
             <div id="item1" className="carousel-item w-full">
-                <img src="/Slides/Slide1.webp" alt="Doctor with a stethoscope" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" decoding= "async" fetchPriority= "high"/>
+                <img src="/Slides/Slide1.webp" alt="Doctor with a stethoscope" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" decoding= "async" loading= "eager" fetchPriority= "high"/>
             </div>
             <div id="item2" className="carousel-item w-full">
                 <img src="/Slides/Slide2.webp" alt="Doctor talking to a patient" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" decoding= "async" />
@@ -30,16 +30,16 @@ const Carousel = () => {
             </div>
             <div className="flex items-end justify-center absolute h-full w-full z-10 pb-6 gap-2">
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(1)}>
-                    <a id="CarouselButton1" className="w-8 h-1 bg-white"></a>
+                    <button id="CarouselButton1" className="w-8 h-1 bg-white"></button>
                 </div>
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(2)}>
-                    <a id="CarouselButton2" className="w-8 h-1 bg-slate-500"></a>
+                    <button id="CarouselButton2" className="w-8 h-1 bg-slate-500"></button>
                 </div>
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(3)}>
-                    <a id="CarouselButton3" className="w-8 h-1 bg-slate-500"></a>
+                    <button id="CarouselButton3" className="w-8 h-1 bg-slate-500"></button>
                 </div>
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(4)}>
-                    <a id="CarouselButton4" className="w-8 h-1 bg-slate-500"></a>
+                    <button id="CarouselButton4" className="w-8 h-1 bg-slate-500"></button>
                 </div>
             </div>
         </div>

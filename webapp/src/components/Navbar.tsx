@@ -11,14 +11,14 @@ const Navbar = () => {
   return (
     <nav className="navbar fixed bg-[#2E024E] shadow-xl h-20 z-50">
         <div className="md:flex-1">
-          <a className="btn btn-ghost max-w-full" onClick={() => handleItemClick("home")}><img src="logo.svg" alt="Bissonnet Medical Center Logo" width="325" height="26" decoding= "async" fetchPriority= "high" /></a>
+          <button className="btn btn-ghost max-w-full" onClick={() => handleItemClick("home")}><img src="logo.svg" alt="Bissonnet Medical Center Logo" width="325" height="26" decoding= "async" fetchPriority= "high" /></button>
         </div>
         <div className="flex-none hidden md:block">
           <ul className="menu menu-horizontal px-2 text-lg">
-            <li className="ml-10 hover:border-b hidden lg:block"><a onClick={() => handleItemClick("home")}>Home</a></li>
-            <li className="ml-10 hover:border-b"><a onClick={() => handleItemClick("about")}>About</a></li>
-            <li className="ml-10 hover:border-b"><a onClick={() => handleItemClick("services")}>Services</a></li>
-            <li className="ml-10 hover:border-b"><a onClick={() => handleItemClick("contact")}>Contact</a></li>
+            <li className="ml-10 hover:border-b hidden lg:block"><button onClick={() => handleItemClick("home")}>Home</button></li>
+            <li className="ml-10 hover:border-b"><button onClick={() => handleItemClick("about")}>About</button></li>
+            <li className="ml-10 hover:border-b"><button onClick={() => handleItemClick("services")}>Services</button></li>
+            <li className="ml-10 hover:border-b"><button onClick={() => handleItemClick("contact")}>Contact</button></li>
           </ul>
         </div>
     </nav>

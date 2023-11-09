@@ -17,10 +17,10 @@ const Footer = () => {
                 </aside>
                 <nav>
                     <header className="footer-title">Company</header>
-                    <a className="link link-hover" onClick={() => handleItemClick("home")}>Home</a>
-                    <a className="link link-hover" onClick={() => handleItemClick("about")}>About Us</a>
-                    <a className="link link-hover" onClick={() => handleItemClick("services")}>Services</a>
-                    <a className="link link-hover" onClick={() => handleItemClick("contact")}>Contact Us</a>
+                    <button className="link link-hover" onClick={() => handleItemClick("home")}>Home</button>
+                    <button className="link link-hover" onClick={() => handleItemClick("about")}>About Us</button>
+                    <button className="link link-hover" onClick={() => handleItemClick("services")}>Services</button>
+                    <button className="link link-hover" onClick={() => handleItemClick("contact")}>Contact Us</button>
                 </nav>
                 <nav>
                     <header className="footer-title">Contact</header>
