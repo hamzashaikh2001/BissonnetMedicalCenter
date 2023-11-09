@@ -30,16 +30,16 @@ const Carousel = () => {
             </div>
             <div className="flex items-end justify-center absolute h-full w-full z-10 pb-6 gap-2">
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(1)}>
-                    <button id="CarouselButton1" className="w-8 h-1 bg-white"></button>
+                    <button aria-label="Carousel Button 1" id="CarouselButton1" className="w-8 h-1 bg-white"></button>
                 </div>
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(2)}>
-                    <button id="CarouselButton2" className="w-8 h-1 bg-slate-500"></button>
+                    <button aria-label="Carousel Button 2" id="CarouselButton2" className="w-8 h-1 bg-slate-500"></button>
                 </div>
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(3)}>
-                    <button id="CarouselButton3" className="w-8 h-1 bg-slate-500"></button>
+                    <button aria-label="Carousel Button 3" id="CarouselButton3" className="w-8 h-1 bg-slate-500"></button>
                 </div>
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(4)}>
-                    <button id="CarouselButton4" className="w-8 h-1 bg-slate-500"></button>
+                    <button aria-label="Carousel Button 4" id="CarouselButton4" className="w-8 h-1 bg-slate-500"></button>
                 </div>
             </div>
         </div>

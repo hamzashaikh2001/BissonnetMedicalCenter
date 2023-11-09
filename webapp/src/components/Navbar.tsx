@@ -9,7 +9,7 @@ const Navbar = () => {
     }
   }
   return (
-    <nav className="navbar fixed bg-[#2E024E] shadow-xl h-20 z-50">
+    <nav className="navbar fixed bg-[#2E024E] shadow-xl h-20 z-50 text-white">
         <div className="md:flex-1">
           <button className="btn btn-ghost max-w-full" onClick={() => handleItemClick("home")}><img src="logo.svg" alt="Bissonnet Medical Center Logo" width="325" height="26" decoding= "async" fetchPriority= "high" /></button>
         </div>
