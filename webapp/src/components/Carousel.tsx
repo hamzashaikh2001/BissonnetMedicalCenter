@@ -20,13 +20,13 @@ const Carousel = () => {
                 <img src="/Slides/Slide1.webp" alt="Doctor with a stethoscope" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" decoding= "async" fetchPriority= "high"/>
             </div>
             <div id="item2" className="carousel-item w-full">
-                <img src="/Slides/Slide2.webp" alt="Doctor talking to a patient" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" loading = "lazy" decoding= "async" fetchPriority= "low"/>
+                <img src="/Slides/Slide2.webp" alt="Doctor talking to a patient" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" decoding= "async" />
             </div>
             <div id="item3" className="carousel-item w-full">
-                <img src="/Slides/Slide3.webp" alt="Doctor taking vitals" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" loading = "lazy" decoding= "async" fetchPriority= "low"/>
+                <img src="/Slides/Slide3.webp" alt="Doctor taking vitals" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" decoding= "async" />
             </div>
             <div id="item4" className="carousel-item w-full">
-                <img src="/Slides/Slide4.webp" alt="Organized Clinic Office" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" loading = "lazy" decoding= "async" fetchPriority= "low"/>
+                <img src="/Slides/Slide4.webp" alt="Organized Clinic Office" width="1520" height="740" sizes="100vw" className="w-full h-auto pt-20" decoding= "async" />
             </div>
             <div className="flex items-end justify-center absolute h-full w-full z-10 pb-6 gap-2">
                 <div className="w-8 h-5 cursor-pointer flex items-center" onClick={() => handleItemClick(1)}>
